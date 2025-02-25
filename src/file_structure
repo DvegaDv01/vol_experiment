@@ -1,0 +1,22 @@
+volatility_trading/
+    __init__.py
+    core/
+        __init__.py
+        option_pricing.py
+        volatility_surface.py
+        moment_extraction.py
+        pnl_attribution.py
+    strategies/
+        __init__.py
+        vol_trading.py
+        skew_trading.py
+        smile_trading.py
+        hedging.py
+    analysis/
+        __init__.py
+        performance_metrics.py
+        regression.py
+    utils/
+        __init__.py
+        math_utils.py
+        visualization.py
